@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #ffffff;
+}
+
+p,h1,h2,h3{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  border-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul{
+  margin: 0;
+  display: flex;
+  height: 120px;
+}
+
+li{
+  list-style: none;
+  margin-right: 8%;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+a:hover{
+  color: tomato;
+}
+
+.header{
+  height: 700px;
+  background-image: url(img/member2.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  text-align: left;
+  padding-left: 70px;
+  letter-spacing: 0.2rem;
+  line-height: 2.4rem;
+  font-size: 1.3rem;
+  white-space: nowrap;
+} 
+
+.about,.gallery{
+  height: 1500px;
+  background-color: white;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+.about h1{
+  padding: 40px 0 60px 0;
+}
+
+.about p{
+  width: 60%;
+  text-align: left;
+  padding: 30px 70px;
+  border: white 3px solid;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+
+.gallery{
+  height: 1000px;
+}
+
+.about{
+  justify-content: center;
+}
